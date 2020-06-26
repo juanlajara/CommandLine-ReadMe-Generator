@@ -9,8 +9,10 @@ function generateMarkdown(data) {
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+
 
 
 ## Installation
