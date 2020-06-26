@@ -13,7 +13,6 @@ const questions = [
 		message: "Describe your project",
 		name: "projectDescription",
 	},
-
 	{
 		type: "input",
 		message: "Installation instructions:",
@@ -42,7 +41,12 @@ const questions = [
 	{
 		type: "input",
 		message: "Enter GitHub profile picture URL",
-		name: "profilePic",
+		name: "profilePicURL",
+	},
+	{
+		type: "input",
+		message: "Enter GitHub Repo name",
+		name: "repoName",
 	},
 	{
 		type: "input",

@@ -33,7 +33,7 @@ ${data.license}
 
 ## Badges
 
-![LicenseType](https://img.shields.io//github/license/${data.username}/${data.projectTitle}?color=green)
+![Issues](https://img.shields.io/github/issues/${data.username}/${data.repoName})
 
 
 ## Contributing
@@ -48,7 +48,7 @@ ${data.tests}
 
 ## Questions
 
-${data.profilePic}
+![ProfilePic](${data.profilePicURL})
 ${data.email}
 
 `;
