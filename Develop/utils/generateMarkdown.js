@@ -49,7 +49,8 @@ ${data.tests}
 ## Questions
 
 ![ProfilePic](${data.profilePicURL})
-${data.email}
+* ${data.email}
+
 
 `;
 }
