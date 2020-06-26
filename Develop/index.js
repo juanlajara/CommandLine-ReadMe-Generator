@@ -41,11 +41,6 @@ const questions = [
 	},
 	{
 		type: "input",
-		message: "Questions",
-		name: "questions",
-	},
-	{
-		type: "input",
 		message: "Enter GitHub profile picture URL",
 		name: "profilePic",
 	},
