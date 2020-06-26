@@ -5,6 +5,7 @@ function generateMarkdown(data) {
 ## 💡 Description 
 <p>${data.projectDescription} <a href='${data.repoURL}' target='_blank'>GitHub Link</a></p>
 
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -15,31 +16,35 @@ function generateMarkdown(data) {
 * [Questions](#Questions)
 
 
-
-
 ## Installation
 
 ${data.installation}
+
 
 ## Usage 
 
 ${data.usage}
 
+
 ## License
 
 ${data.license}
 
+
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![badmath](https://img.shields.io//github/license/${data.username}/${data.projectTitle})
+
 
 ## Contributing
 
 ${data.contributing}
 
+
 ## Tests
 
 ${data.tests}
+
 
 ## Questions
 
