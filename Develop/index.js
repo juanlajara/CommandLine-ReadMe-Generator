@@ -5,8 +5,8 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
 	{
 		type: "input",
-		message: "What is your Repo Name?",
-		name: "repoName",
+		message: "What is your Project Title?",
+		name: "projectTitle",
 	},
 	{
 		type: "input",
@@ -67,17 +67,11 @@ const questions = [
 	},
 ];
 
-inquirer.prompt(questions).then(function (inquirer) {
-	console.log(inquirer.name);
-	generateMarkdown(inquirer);
-});
-
-function writeToFile(fileName, data) {
-	generateMarkdown(data);
-}
-
 function init() {
-	generateMarkdown();
+	inquirer.prompt(questions).then(function (data) {
+		console.log(data);
+		fs.appendFileSync("GENREADME.md", generateMarkdown(data));
+	});
 }
 
 init();
