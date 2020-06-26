@@ -33,7 +33,7 @@ ${data.license}
 
 ## Badges
 
-![badmath](https://img.shields.io//github/license/${data.username}/${data.projectTitle})
+![LicenseType](https://img.shields.io//github/license/${data.username}/${data.projectTitle}?color=green)
 
 
 ## Contributing
